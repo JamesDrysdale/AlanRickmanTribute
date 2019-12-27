@@ -1,0 +1,121 @@
+html {
+    /* Setting a base font size of 10px give us easier rem calculations
+       Info: 1rem === 10px, 1.5rem === 15px, 2rem === 20px and so forth
+     */
+    font-size: 14px;
+  }
+  
+  main, header {
+    max-width: 70%;
+    margin-left:auto;
+    margin-right: auto;
+  }
+  
+  header {
+    text-align: center;
+  }
+  
+  #title {
+    font-size: 3em;
+  }
+  
+  #career {
+    font-size: 2.2em;
+  }
+  
+  #introQuote {
+    background-color: #ffd24d;
+  }
+  
+  q {
+    font-size: 1.2em;
+    font-style: italic;
+  }
+  
+  #image, #img-div {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 50%;
+    height: auto;
+    border-radius: 5%;
+  }
+  
+  #image {
+    box-shadow: 5px 5px 25px;
+    }
+  
+  #img-caption {
+    text-align: center;
+    margin: 15px;
+  }
+  
+  table, th, td {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 10px;
+  }
+  
+  .film {
+    background-color: #ffd24d;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .theatre {
+    background-color: #ffa64d;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  .television {
+    background-color: #ff794d;
+    text-align: center;
+    padding: 5px;
+  }
+  
+  #filmography {
+    width: 70%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  #filmographyKey {
+    text-align: center;
+  }
+  
+  .tribute {
+    background-color: #ffd24d;
+    margin: 30px;
+    padding: 20px;
+    border-radius: 20px;
+  }
+  
+  #tributeVideo {
+    width: 560px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  iframe {
+    border: none;
+  }
+  
+  #wiki-link {
+    text-align: center;
+  }
+  
+  button {
+    font-size: 1.2rem;
+    padding: 25px;
+    border-radius: 20px;
+    background-color: #c1c1d7;
+  }
+  
+  #copyright {
+    width: 100%;
+    font-size: 0.8rem;
+    text-align: center;
+    background-color: #c1c1d7;
+    padding: 5px;
+  }
+  
